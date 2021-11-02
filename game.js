@@ -21,6 +21,7 @@ this.display = function() {
 };
  function start() { //create bear
   bear = new Bear();
+  document.addEventListener("keydown", moveBear, false);
 }
  / Handle keyboad events // to move the bear function moveBear(e) {
 //codes of the four keys
