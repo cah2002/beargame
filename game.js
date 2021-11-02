@@ -100,4 +100,19 @@ let y = getRandomInt(boardDivH); img.style.left = (boardDivX + x) + "px"; img.st
 //return the img object
 return img;
 }
+function makeBees() {
+//get number of bees specified by the user
+let nbBees = document.getElementById("nbBees").value;
+nbBees = Number(nbBees); //try converting the content of the input to a number if (isNaN(nbBees)) { //check that the input field contains a valid number
+window.alert("Invalid number of bees"); return;
+}
+//create bees
+let i = 1;
+while (i <= nbBees) {
+var num = i;
+var bee = new Bee(num); //create object and its IMG element bee.display(); //display the bee
+bees.push(bee); //add the bee object to the bees array
+i++;
+} 
+}
 }
