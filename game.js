@@ -162,5 +162,14 @@ intersectArea = x_intersect * y_intersect;
 //if intersection is nil no hit
 if (intersectArea == 0 || isNaN(intersectArea)) { return false;
 }
-return true; }
+return true; 
+}
+function moveBees() {
+//get speed input field value
+let speed = document.getElementById("speedBees").value; //move each bee to a random location
+for (let i = 0; i < bees.length; i++) {
+let dx = getRandomInt(2 * speed) - speed;
+let dy = getRandomInt(2 * speed) - speed; bees[i].move(dx, dy);
+isHit(bees[i], bear); //we add this to count stings
+} }
 }
