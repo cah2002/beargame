@@ -88,7 +88,9 @@ let boardDivH = boardDiv.offsetHeight;
 let boardDivX = boardDiv.offsetLeft;
 let boardDivY = boardDiv.offsetTop;
 //create the IMG element
-let img = document.createElement("img"); img.setAttribute("src", "images/bee.gif"); img.setAttribute("width", "100");
+let img = document.createElement("img"); 
+img.setAttribute("src", "images/bee.gif"); 
+img.setAttribute("width", "25");
 img.setAttribute("alt", "A bee!");
 img.setAttribute("id", "bee" + wNum); img.setAttribute("class", "bee"); //set class of html tag img
   //add the IMG element to the DOM as a child of the board div 
