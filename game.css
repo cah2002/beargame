@@ -8,8 +8,8 @@
 
 #board {
     position: absolute;
-    height: 60px;
-    width: 120px;
+    height: 6000px;
+    width: 12000px;
     background-color: rgb(230,0,115);
     align-content: center;
     align-self: center;
