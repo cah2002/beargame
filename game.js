@@ -187,6 +187,4 @@ if (longestDuration < thisDuration) longestDuration = thisDuration;
 document.getElementById("duration").innerHTML = longestDuration;
 }
 } 
-
-}
 }
