@@ -121,7 +121,7 @@ bees = new Array();
 //create bees
 makeBees();
 }
-unction moveBees() {
+function moveBees() {
 //get speed input field value
  
 let speed = document.getElementById("speedBees").value; //move each bee to a random location
