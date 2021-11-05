@@ -188,3 +188,5 @@ document.getElementById("duration").innerHTML = longestDuration;
 }
 } 
 }
+}
+}
