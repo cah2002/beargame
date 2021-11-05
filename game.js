@@ -20,7 +20,8 @@ this.display = function() {
   document.addEventListener("keydown", moveBear, false);
 }
   
- // Handle keyboad events // to move the bear function moveBear(e) {
+ // Handle keyboad events // to move the bear 
+ function moveBear(e) {
 //codes of the four keys
 const KEYUP = 38; const KEYDOWN = 40; const KEYLEFT = 37; const KEYRIGHT = 39;
 if (e.keyCode == KEYRIGHT) { bear.move(1, 0)
