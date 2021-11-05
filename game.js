@@ -30,6 +30,9 @@ function Bear() {
 function start() { //create bear
  bear = new Bear();
  document.addEventListener("keydown", moveBear, false);
+ bees = new Array();
+  //create bees
+  makeBees();
  }
   
  // Handle keyboad events // to move the bear 
